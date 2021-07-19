@@ -10,8 +10,7 @@ import { CardModule } from 'primeng/card';
   ],
   exports: [BlueCardComponent],
   imports: [
-    CommonModule,
-    CardModule
+    CommonModule
   ]
 })
 export class BlueCardModule { }

@@ -4,5 +4,20 @@ $bg-secondary: orange;
 $bg-app-background: #ffff;
 
 body {
-    margin: 0;
+  margin: 0;
+}
+
+.primary-btn {
+  font-size: 12pt;
+  padding: 0.5rem;
+  background: lightgray;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.primary-btn:active {
+  background-color: white;
+  color: black;
 }

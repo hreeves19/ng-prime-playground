@@ -1,4 +1,4 @@
 <div style="display: flex; justify-content: space-around; align-items: center;">
-    <app-blue-card></app-blue-card>
-    <app-red-card></app-red-card>
+    <app-blue-card [title]="blueCardTitle" (addPersonButtonClicked)="addPerson($event)"></app-blue-card>
+    <app-red-card [title]="redCardTitle" (addPersonButtonClicked)="addPerson($event)"></app-red-card>
 </div>
