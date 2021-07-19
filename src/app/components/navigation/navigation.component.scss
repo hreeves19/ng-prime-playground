@@ -1,0 +1,49 @@
+$bg-primary: dodgerblue;
+$title-size: 20pt;
+
+.nav-container {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    background-color: $bg-primary;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+}
+
+.nav-title {
+    font-size: $title-size;
+    margin-right: 1rem;
+}
+
+.nav-links {
+    display: flex;
+    align-items: flex-end;
+    font-size: 12pt;
+    
+    a {
+        margin-right: 1rem;
+        padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+        background-color: orange;
+        color: black;
+        cursor: pointer;
+        border-radius: 0.25rem;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background-color: silver;
+    }
+
+    a:last-child {
+        margin: 0;
+    }
+
+    .active {
+        background-color: silver;
+
+        :hover {
+            background-color: orange;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+@import '../styles.scss';
+
+.page-container {
+    background-color: $bg-app-background;
+    min-height: calc(92vh - 1rem);
+    padding: 1rem 1rem 0 1rem;
+}
